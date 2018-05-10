@@ -7,5 +7,5 @@ Hides the Facebook feed on load to prevent people from getting distracted
 3. Enjoy!
 
 ## Demo:
-![Hidden Feed](#)
-![Showing Feed](#)
+![Hidden Feed](https://github.com/angushtlam/facebook-feed-disabler/blob/master/images/hidden.jpg?raw=true)
+![Showing Feed](https://github.com/angushtlam/facebook-feed-disabler/blob/master/images/showing.jpg?raw=true)
