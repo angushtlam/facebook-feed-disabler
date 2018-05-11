@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Facebook Feed Disabler
 // @namespace    http://angus.works/
-// @version      1.1
+// @version      1.0
 // @description  Hides the Facebook feed on load to prevent people from getting distracted
 // @author       Angus Lam (angushtlam@gmail.com)
 // @match        https://www.facebook.com/
@@ -33,9 +33,10 @@
       feed.style.display = 'none'
       feed.id = 'user-feed'
       feed.parentNode.innerHTML = `
-<a id="feed-toggler" style="display: block; margin-bottom: 8px; text-align: center;" onClick="window.toggleFeed()">Show Feed</a>
+<a id="feed-toggler" onClick="window.toggleFeed()">Show Feed</a>
+<hr />
 ${feed.parentNode.innerHTML}
-<div class="_4-u2 _1-ib _2tyk _20os _4-u8" style="align-items: center; display: flex; height: 400px;">
+<div style="align-items: center; background-color: #fff; border-radius: 4px; border: 1px solid #dddfe2; display: flex; height: 400px;">
 <div style="padding: 10px; text-align: center; width: 100%;">
   <div style="display: block; font-size: 18px;">You got work to do!</div>
   <h1 style="display: block; font-size: 48px;">Stay focused.</h1>
